@@ -5,7 +5,7 @@
     letter-spacing: 1px;
     transition: all 0.35s ease;
     margin-left: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
   
   .menu-hover-lines li a {
@@ -57,5 +57,53 @@
   }
   
   .sketchfab {
-    margin: 30px 30px 30px 30px; 
+    margin: 50px 50px 50px 50px; 
   }
+
+  
+.topbar-center-logo {
+  /* background: #2c3840; */
+}
+
+.topbar-center-logo .menu {
+  /* background: #2c3840; */
+}
+
+.topbar-center-logo .menu a {
+  /* color: #fefefe; */
+}
+
+.topbar-center-logo .top-bar-left {
+  /* -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; */
+          /* margin: auto;
+          width: 50%; */
+          /* border: 3px solid green; */
+          /* padding: 10px; */
+          text-align: center;
+          width: 50%;
+          margin: 0 auto;
+          text-align: center;
+}
+
+.menu-bar-outer {
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid red; */
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  .topbar-center-logo .top-bar-center {
+    display: none;
+  }
+}
+
+.topbar-center-logo-mobile {
+  /* background: #2c3840; */
+}
+
+.topbar-center-logo-mobile .menu-icon {
+  vertical-align: text-top;
+}
