@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/3dModeling.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
 
@@ -59,11 +60,11 @@
       <h3 class="center-text-div">Capishark</h3>
       <div class="grid-x grid-margin-x text-center">
         <div class="cell small-6">
-          <img src="../data/Modeling/Capishark_geo-min.JPG" alt="Capishark Geo Min"/>
-          <!-- <div class="desc">Capishark Geo Min</div> -->
+          <img src="../data/Modeling/Capishark_geo.JPG" alt="Capishark Geo" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
+          <!-- <div class="desc">Capishark Geo </div> -->
         </div>
         <div class="cell small-6">
-          <img src="../data/Modeling/Capishark-min.JPG" alt="Capishark Min"/>
+          <img src="../data/Modeling/Capishark.JPG" alt="Capishark" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
         </div>
       </div>
     </div>
@@ -73,10 +74,10 @@
       <h3 class="center-text-div">Eggman</h3>
       <div class="grid-x grid-margin-x text-center">
         <div class="cell small-6">
-          <img src="../data/Modeling/Eggman_geo-min.JPG" alt="Eggman Geo Min"/>
+          <img src="../data/Modeling/Eggman_geo.JPG" alt="Eggman Geo" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
         </div>
         <div class="cell small-6">
-          <img src="../data/Modeling/Eggman-min.JPG" alt="Eggman Min"/>
+          <img src="../data/Modeling/Eggman.JPG" alt="Eggman" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
         </div>
       </div>
     </div>
@@ -86,14 +87,21 @@
       <h3 class="center-text-div">Tank</h3>
       <div class="grid-x grid-margin-x text-center">
         <div class="cell small-6">
-          <img src="../data/Modeling/Tank_geo-min.JPG" alt="Tank Geo Min"/>
+          <img src="../data/Modeling/Tank_geo.JPG" alt="Tank Geo" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
         </div>
         <div class="cell small-6">
-          <img src="../data/Modeling/Tank-min.JPG" alt="Tank Min"/>
+          <img src="../data/Modeling/Tank.JPG" alt="Tank" onclick="openModal(this)" class="w3-hover-opacity image-with-modal"/>
         </div>
       </div>
     </div>
 
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+      <div class="w3-modal-content w3-animate-zoom">
+        <img id="img01" style="width:100%">
+      </div>
+    </div>
+    
     <script src="../js/vendor/jquery.js"></script>
     <script src="../js/vendor/what-input.js"></script>
     <script src="../js/vendor/foundation.js"></script>

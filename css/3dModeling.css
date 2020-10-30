@@ -45,3 +45,7 @@ div.desc {
   display: table;
   clear: both;
 }
+
+.image-with-modal {
+  cursor: pointer;
+}
