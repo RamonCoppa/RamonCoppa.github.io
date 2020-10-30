@@ -1,7 +1,8 @@
 $(document).foundation()
 
 $('.sim-thumb').on('click', function() {
-  $('#main-product-image').attr('src', $(this).data('image'));
+  $('#main-product-image').attr('src', $(this).data('image')).attr('alt', $(this).data('alt'));
+  $('#main-product-image-description').html($(this).data('alt'));
 })
 
 const openModal = (element) => {
