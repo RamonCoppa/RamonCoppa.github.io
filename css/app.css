@@ -155,3 +155,83 @@ html {
   max-width: 100%;
   height: auto;
 }
+
+.mobile-title {
+  font-size: 24px;
+}
+
+/* embeded video stuff below this */
+/* 
+.home-banner .slide .video-slide {
+
+  background-color: #000; }
+
+
+.home-banner.loading .video-background {
+
+  opacity: 0; }
+
+
+.video-background {
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 0;
+
+  padding-top: 56.25%;
+
+  width: 100%;
+
+  -webkit-transform: translateY(-50%);
+
+  -ms-transform: translateY(-50%);
+
+  transform: translateY(-50%);
+
+  -webkit-transition: 2s opacity ease;
+
+  transition: 2s opacity ease;
+
+  opacity: 1; 
+}
+
+
+.video-foreground,
+
+.video-background iframe {
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  pointer-events: none; 
+} */
+
+  #yt-wrap{
+    position: fixed;
+    left: 0;
+    z-index: -99;
+    position: fixed;
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    }
+    #yt-wrap iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    }
