@@ -130,3 +130,23 @@
 .bottom-border {
   border-bottom: 3px solid black;
 } */
+
+/* fixes the mobile menu bar flashing */
+.no-js [data-responsive-toggle] {
+  display: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html {
+  overflow-y: scroll;
+}
