@@ -79,7 +79,6 @@
           flex: 1 0 auto; */
           /* margin: auto;
           width: 50%; */
-          /* border: 3px solid green; */
           /* padding: 10px; */
           text-align: center;
           width: 50%;
@@ -92,6 +91,12 @@
   justify-content: center;
   /* border: 3px solid red; */
 }
+
+/* .full-width-div {
+  position:absolute;
+  left:0;
+  right:0;
+} */
 
 
 @media screen and (max-width: 39.9375em) {
@@ -114,3 +119,14 @@
   text-align: center;
   margin: 30px 30px 30px 30px;
 }
+
+.sticky-full-width {
+  width: 100%;
+  /* border-bottom: 3px black; */
+  border: 3px black;
+  background-color: white;
+}
+/* 
+.bottom-border {
+  border-bottom: 3px solid black;
+} */

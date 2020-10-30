@@ -1,0 +1,21 @@
+.resume-image-responsive {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 30px
+}
+
+.center-text-div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .resume-image-responsive {
+    max-width: 80%;
+  }
+}
